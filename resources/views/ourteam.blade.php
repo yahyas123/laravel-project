@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, reprehenderit cum impedit error aliquid nobis dicta, ut nam nemo labore blanditiis nesciunt! Nihil deserunt perspiciatis quaerat sed, in tempore incidunt.</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title', 'Our Team')
+
+@section('content')
+    <h1>Tim Kami</h1>
+    <p>Perkenalkan anggota tim kami yang luar biasa...</p>
+@endsection
